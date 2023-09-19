@@ -1,0 +1,14 @@
+{
+    "require": {
+        "rakit/validation": "^1.4",
+        "gabordemooij/redbean": "^5.7"
+    },
+    "autoload": {
+        "files": [
+            "config.php"
+        ],
+        "psr-4": {
+            "Core\\":  "classes/"
+        }
+    }
+}
