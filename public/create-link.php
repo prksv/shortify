@@ -30,5 +30,6 @@ try {
 }
 
 exit(new Response('Link was successfully created', [
-    'url' => $shortify->url
+    'url' => $shortify->url,
+    'link' => $link
 ]));
